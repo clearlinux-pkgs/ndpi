@@ -1,0 +1,25 @@
+From 6f44c913c33fd4ecbe6048613462a95767a104a4 Mon Sep 17 00:00:00 2001
+From: Auke Kok <auke-jan.h.kok@intel.com>
+Date: Tue, 4 Feb 2020 10:14:42 -0800
+Subject: [PATCH] Fix library install location.
+
+---
+ src/lib/Makefile.in | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/src/lib/Makefile.in b/src/lib/Makefile.in
+index 1a884ac..2a4c335 100644
+--- a/src/lib/Makefile.in
++++ b/src/lib/Makefile.in
+@@ -11,7 +11,7 @@
+ # Installation directories
+ #
+ prefix     = @prefix@
+-libdir     = ${prefix}/lib
++libdir     = ${prefix}/lib64
+ includedir = ${prefix}/include/ndpi
+ CC         = @CC@
+ CFLAGS     += -fPIC -DPIC -I../include -Ithird_party/include -DNDPI_LIB_COMPILATION -O2 -g -Wall
+-- 
+2.25.0
+

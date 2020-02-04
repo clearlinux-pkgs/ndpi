@@ -1,2 +1,2 @@
-Configure miss: numa_available in -lnuma
-Configure miss: numa_available in -lnuma
+Configure miss: PTHREAD_PRIO_INHERIT
+Configure miss: PTHREAD_PRIO_INHERIT
