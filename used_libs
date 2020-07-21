@@ -1,5 +1,4 @@
 libc.so.6
-libjson-c.so.4
 libm.so.6
 libpcap.so.1
 libpthread.so.0
