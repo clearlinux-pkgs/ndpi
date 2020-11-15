@@ -1,1 +1,6 @@
 Configure miss: PTHREAD_PRIO_INHERIT
+Configure miss: json.h presence
+Configure miss: DPDK (used by ndpiReader)
+Configure miss: PTHREAD_PRIO_INHERIT
+Configure miss: json.h presence
+Configure miss: DPDK (used by ndpiReader)
