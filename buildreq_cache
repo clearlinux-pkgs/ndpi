@@ -1,4 +1,3 @@
-3.4
+4.0
 libgcrypt-dev
 numactl-dev
-pkgconfig(json-c)
